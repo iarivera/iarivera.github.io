@@ -1,6 +1,10 @@
-div {
-    text-align: center;
+div.about {
+    padding: 50px;
     ul {
         list-style-type: none;
     }
+}
+
+div.contact {
+    padding: 50px;
 }
