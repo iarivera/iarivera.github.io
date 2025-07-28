@@ -29,6 +29,20 @@ ul.topnav li a.active {background-color: #04AA6D;}
 
 ul.topnav li.right {float: right;}
 
+img {
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
 @media screen and (max-width: 600px) {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
