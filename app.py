@@ -11,6 +11,10 @@ def index():
 def portfolio():
     return render_template("portfolio.html")
 
+@app.route('/contact')
+def contact():
+    return render_template("contact.html")
+
 @app.route("/download_resume")
 def download_resume():
     path = 'static/Rivera,Ivan_Resume.pdf'

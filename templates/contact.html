@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>iarivera's page</title>
+    </head>
+    <body>
+        <ul class="topnav">
+            <li><a class="active" href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('portfolio') }}">Portfolio</a></li>
+            <li><a class="active" href="#">Contact</a></li>
+            <li><a class="btn btn-success" href="{{ url_for('download_resume')}}">CV</a></li>
+        </ul>
+      <div class="main" style="pad: 0 16px;">
+        <!-- Contact Info Goes Here-->>
+      <div class="footer"></div>
+    </body>
+</html>
